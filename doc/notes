@@ -1,0 +1,2 @@
+To start
+docker run -p 3000:3000 -w /app -v ${PWD}:/app  -v credit-db:/etc/creditdb washapp sh -c "yarn install && yarn run dev"
